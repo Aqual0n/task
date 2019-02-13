@@ -1,0 +1,169 @@
+13-Feb-2019 14:11:41.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16
+13-Feb-2019 14:11:41.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2019 16:30:29 UTC
+13-Feb-2019 14:11:41.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+13-Feb-2019 14:11:41.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+13-Feb-2019 14:11:41.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+13-Feb-2019 14:11:41.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Feb-2019 14:11:41.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.2
+13-Feb-2019 14:11:41.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9-LTS
+13-Feb-2019 14:11:41.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Feb-2019 14:11:41.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ForCoding\task\apache-tomcat-9.0.16
+13-Feb-2019 14:11:41.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\ForCoding\task\apache-tomcat-9.0.16
+13-Feb-2019 14:11:41.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Feb-2019 14:11:41.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Feb-2019 14:11:41.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Feb-2019 14:11:41.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ForCoding\task\apache-tomcat-9.0.16\conf\logging.properties
+13-Feb-2019 14:11:41.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Feb-2019 14:11:41.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Feb-2019 14:11:41.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Feb-2019 14:11:41.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Feb-2019 14:11:41.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ForCoding\task\apache-tomcat-9.0.16
+13-Feb-2019 14:11:41.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\ForCoding\task\apache-tomcat-9.0.16
+13-Feb-2019 14:11:41.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ForCoding\task\apache-tomcat-9.0.16\temp
+13-Feb-2019 14:11:41.809 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Users\Aqualon\AppData\Local\GitHubDesktop\bin;.]
+13-Feb-2019 14:11:41.886 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Feb-2019 14:11:42.053 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Feb-2019 14:11:42.083 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1 598] milliseconds
+13-Feb-2019 14:11:42.283 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Feb-2019 14:11:42.283 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16]
+13-Feb-2019 14:11:42.294 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\docs]
+13-Feb-2019 14:11:43.128 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [108] milliseconds.
+13-Feb-2019 14:11:43.187 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\docs] has finished in [893] ms
+13-Feb-2019 14:11:43.188 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\examples]
+13-Feb-2019 14:11:43.765 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\examples] has finished in [577] ms
+13-Feb-2019 14:11:43.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\host-manager]
+13-Feb-2019 14:11:43.856 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\host-manager] has finished in [89] ms
+13-Feb-2019 14:11:43.857 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\manager]
+13-Feb-2019 14:11:43.960 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\manager] has finished in [102] ms
+13-Feb-2019 14:11:43.961 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\ROOT]
+13-Feb-2019 14:11:43.990 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\ROOT] has finished in [30] ms
+13-Feb-2019 14:11:43.996 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Feb-2019 14:11:44.032 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Feb-2019 14:11:44.041 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1 957] milliseconds
+13-Feb-2019 14:15:13.676 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Feb-2019 14:54:48.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16
+13-Feb-2019 14:54:48.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2019 16:30:29 UTC
+13-Feb-2019 14:54:48.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+13-Feb-2019 14:54:48.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+13-Feb-2019 14:54:48.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+13-Feb-2019 14:54:48.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Feb-2019 14:54:48.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.2
+13-Feb-2019 14:54:48.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9-LTS
+13-Feb-2019 14:54:48.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Feb-2019 14:54:48.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ForCoding\task\apache-tomcat-9.0.16
+13-Feb-2019 14:54:48.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\ForCoding\task\apache-tomcat-9.0.16
+13-Feb-2019 14:54:48.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Feb-2019 14:54:48.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Feb-2019 14:54:48.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Feb-2019 14:54:48.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ForCoding\task\apache-tomcat-9.0.16\conf\logging.properties
+13-Feb-2019 14:54:48.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Feb-2019 14:54:48.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Feb-2019 14:54:48.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Feb-2019 14:54:48.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Feb-2019 14:54:48.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ForCoding\task\apache-tomcat-9.0.16
+13-Feb-2019 14:54:48.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\ForCoding\task\apache-tomcat-9.0.16
+13-Feb-2019 14:54:48.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ForCoding\task\apache-tomcat-9.0.16\temp
+13-Feb-2019 14:54:48.825 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Users\Aqualon\AppData\Local\GitHubDesktop\bin;.]
+13-Feb-2019 14:54:48.883 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Feb-2019 14:54:49.039 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Feb-2019 14:54:49.046 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [887] milliseconds
+13-Feb-2019 14:54:49.118 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Feb-2019 14:54:49.119 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16]
+13-Feb-2019 14:54:49.620 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\blogsComments-1.0-SNAPSHOT.war]
+13-Feb-2019 14:54:52.464 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Feb-2019 14:54:52.495 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\blogsComments-1.0-SNAPSHOT.war] has finished in [2 874] ms
+13-Feb-2019 14:54:52.498 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\docs]
+13-Feb-2019 14:54:52.544 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\docs] has finished in [47] ms
+13-Feb-2019 14:54:52.545 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\examples]
+13-Feb-2019 14:54:53.132 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\examples] has finished in [587] ms
+13-Feb-2019 14:54:53.134 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\host-manager]
+13-Feb-2019 14:54:53.182 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\host-manager] has finished in [47] ms
+13-Feb-2019 14:54:53.183 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\manager]
+13-Feb-2019 14:54:53.226 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\manager] has finished in [43] ms
+13-Feb-2019 14:54:53.227 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\ROOT]
+13-Feb-2019 14:54:53.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\ROOT] has finished in [33] ms
+13-Feb-2019 14:54:53.265 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Feb-2019 14:54:53.278 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Feb-2019 14:54:53.286 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4 239] milliseconds
+13-Feb-2019 14:55:15.711 INFO [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsComments-1.0-SNAPSHOT] has started
+13-Feb-2019 14:55:17.732 INFO [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Feb-2019 14:55:17.751 INFO [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsComments-1.0-SNAPSHOT] is completed
+13-Feb-2019 14:55:46.026 INFO [http-nio-8080-exec-12] com.mongodb.diagnostics.logging.JULLogger.log Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=50}
+13-Feb-2019 14:55:46.156 INFO [cluster-ClusterId{value='5c63f7b206491b0b3c3bf325', description='null'}-localhost:27017] com.mongodb.diagnostics.logging.JULLogger.log Opened connection [connectionId{localValue:1, serverValue:21}] to localhost:27017
+13-Feb-2019 14:55:46.160 INFO [cluster-ClusterId{value='5c63f7b206491b0b3c3bf325', description='null'}-localhost:27017] com.mongodb.diagnostics.logging.JULLogger.log Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 5]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=715802}
+13-Feb-2019 14:55:46.172 INFO [http-nio-8080-exec-12] com.mongodb.diagnostics.logging.JULLogger.log Opened connection [connectionId{localValue:2, serverValue:22}] to localhost:27017
+13-Feb-2019 14:55:58.416 WARNING [http-nio-8080-exec-8] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsComments-1.0-SNAPSHOT] appears to have started a thread named [cluster-ClusterId{value='5c63f7b206491b0b3c3bf325', description='null'}-localhost:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.waitForSignalOrTimeout(DefaultServerMonitor.java:222)
+ com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.waitForNext(DefaultServerMonitor.java:203)
+ com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:151)
+ java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+13-Feb-2019 14:55:58.419 WARNING [http-nio-8080-exec-8] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsComments-1.0-SNAPSHOT] appears to have started a thread named [CleanCursors-1-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@11.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+13-Feb-2019 15:00:42.857 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Feb-2019 15:00:42.858 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Feb-2019 15:00:42.938 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Feb-2019 15:00:43.009 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Feb-2019 15:00:43.033 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Feb-2019 15:00:43.038 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Feb-2019 15:00:43.040 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Feb-2019 15:00:43.042 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+13-Feb-2019 15:00:50.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16
+13-Feb-2019 15:00:50.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2019 16:30:29 UTC
+13-Feb-2019 15:00:50.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+13-Feb-2019 15:00:50.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+13-Feb-2019 15:00:50.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+13-Feb-2019 15:00:50.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Feb-2019 15:00:50.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.2
+13-Feb-2019 15:00:50.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9-LTS
+13-Feb-2019 15:00:50.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Feb-2019 15:00:50.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ForCoding\task\apache-tomcat-9.0.16
+13-Feb-2019 15:00:50.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\ForCoding\task\apache-tomcat-9.0.16
+13-Feb-2019 15:00:50.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Feb-2019 15:00:50.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Feb-2019 15:00:50.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Feb-2019 15:00:50.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ForCoding\task\apache-tomcat-9.0.16\conf\logging.properties
+13-Feb-2019 15:00:50.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Feb-2019 15:00:50.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Feb-2019 15:00:50.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Feb-2019 15:00:50.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Feb-2019 15:00:50.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ForCoding\task\apache-tomcat-9.0.16
+13-Feb-2019 15:00:50.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\ForCoding\task\apache-tomcat-9.0.16
+13-Feb-2019 15:00:50.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ForCoding\task\apache-tomcat-9.0.16\temp
+13-Feb-2019 15:00:50.619 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Users\Aqualon\AppData\Local\GitHubDesktop\bin;.]
+13-Feb-2019 15:00:50.671 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Feb-2019 15:00:50.826 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Feb-2019 15:00:50.832 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [798] milliseconds
+13-Feb-2019 15:00:50.902 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Feb-2019 15:00:50.903 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16]
+13-Feb-2019 15:00:53.544 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Feb-2019 15:00:53.702 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\blogsComments-1.0-SNAPSHOT.war]
+13-Feb-2019 15:00:55.549 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Feb-2019 15:00:55.579 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\blogsComments-1.0-SNAPSHOT.war] has finished in [1 878] ms
+13-Feb-2019 15:00:55.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\docs]
+13-Feb-2019 15:00:55.612 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\docs] has finished in [30] ms
+13-Feb-2019 15:00:55.613 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\examples]
+13-Feb-2019 15:00:55.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\examples] has finished in [340] ms
+13-Feb-2019 15:00:55.955 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\host-manager]
+13-Feb-2019 15:00:56.003 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\host-manager] has finished in [47] ms
+13-Feb-2019 15:00:56.005 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\manager]
+13-Feb-2019 15:00:56.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\manager] has finished in [53] ms
+13-Feb-2019 15:00:56.059 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\ROOT]
+13-Feb-2019 15:00:56.091 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ForCoding\task\apache-tomcat-9.0.16\webapps\ROOT] has finished in [31] ms
+13-Feb-2019 15:00:56.101 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Feb-2019 15:00:56.118 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Feb-2019 15:00:56.128 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5 293] milliseconds
+13-Feb-2019 15:01:03.857 INFO [http-nio-8080-exec-2] com.mongodb.diagnostics.logging.JULLogger.log Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=50}
+13-Feb-2019 15:01:03.984 INFO [cluster-ClusterId{value='5c63f8ef06491b1a0cb4250d', description='null'}-localhost:27017] com.mongodb.diagnostics.logging.JULLogger.log Opened connection [connectionId{localValue:1, serverValue:23}] to localhost:27017
+13-Feb-2019 15:01:03.989 INFO [cluster-ClusterId{value='5c63f8ef06491b1a0cb4250d', description='null'}-localhost:27017] com.mongodb.diagnostics.logging.JULLogger.log Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 5]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=1151092}
+13-Feb-2019 15:01:04.003 INFO [http-nio-8080-exec-2] com.mongodb.diagnostics.logging.JULLogger.log Opened connection [connectionId{localValue:2, serverValue:24}] to localhost:27017

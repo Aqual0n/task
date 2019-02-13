@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven 3.3.9
+Built-By: Aqualon
+Build-Jdk: 11.0.2
+Implementation-Title: blogsComments
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: blogsComments
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/blogsComments
+
