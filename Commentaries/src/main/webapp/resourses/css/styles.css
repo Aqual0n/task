@@ -57,9 +57,13 @@ body {
 	height: 350px;
 	position: relative;
 
-	background-color: cyan;
+	background-color: lightblue;
 	margin-bottom: 44px;
     border-radius: 10px;
+	background-image: url(../img/article-image.png);
+	background-size: 101%;
+	background-position: -2px -55px;
+	background-repeat: no-repeat;
 
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     overflow: hidden;
