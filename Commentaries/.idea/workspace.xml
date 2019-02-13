@@ -3,90 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="58f3bc38-59a2-4025-a7e4-ec11beb9e547" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resourses/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resourses/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/META-INF/maven/blogsComments/blogsComments/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/META-INF/maven/blogsComments/blogsComments/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/META-INF/war-tracker" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/classes/system/Controller/CommentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/classes/system/DAO/CommentDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/classes/system/DAO/MongoFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/classes/system/Model/Comment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/classes/system/Service/CommentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/byte-buddy-1.7.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/hibernate-commons-annotations-5.0.4.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/hibernate-core-5.3.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/hibernate-entitymanager-5.3.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/jackson-core-2.9.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/jackson-core-asl-1.9.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/jackson-databind-2.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/javassist-3.23.1-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/jetty-http-9.4.12.v20180830.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/jetty-io-9.4.12.v20180830.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/jetty-server-9.4.14.v20181114.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/jetty-util-9.4.12.v20180830.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/mongo-java-driver-3.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/spring-aop-5.0.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/spring-beans-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/spring-context-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/spring-core-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/spring-data-commons-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/spring-data-mongodb-2.1.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/spring-expression-5.0.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/spring-tx-5.0.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/spring-web-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/lib/spring-webmvc-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/pages/article.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/pages/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/spring/spring-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/css/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/css/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/css/slick-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/css/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/fonts/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/fonts/Roboto-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/fonts/Roboto-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/fonts/roboto-thin.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/fonts/roboto-thin.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/fonts/roboto.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/fonts/roboto.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/img/article-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/img/author-avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/img/header-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/img/icons/right-arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/js/jquery/jquery-3.2.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/js/slick/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/js/slick/config.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/js/slick/fonts/slick.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/js/slick/fonts/slick.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/js/slick/fonts/slick.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/js/slick/fonts/slick.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/js/slick/slick-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/js/slick/slick-theme.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/js/slick/slick-theme.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/js/slick/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/js/slick/slick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/js/slick/slick.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/js/slick/slick.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/webapps/blog/resourses/js/slick/slick.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.16/logs/localhost_access_log.2019-02-13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.16/logs/localhost_access_log.2019-02-13.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -133,11 +51,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resourses/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="316">
-              <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+              <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="104" column="53" lean-forward="true" selection-start-line="104" selection-start-column="53" selection-end-line="104" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -146,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-17">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -165,6 +92,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>index</find>
+      <find>article-conta</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,13 +109,13 @@
         <option value="$PROJECT_DIR$/src/main/java/system/DAO/CommentDAO.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/spring-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/system/Model/Comment.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/system/Service/CommentService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/article.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/system/Controller/CommentController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resourses/css/styles.css" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -241,86 +169,6 @@
               <item name="Commentaries" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="blogsComments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Commentaries" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogsComments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Commentaries" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogsComments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Commentaries" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogsComments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Commentaries" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogsComments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Commentaries" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogsComments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Commentaries" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogsComments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Commentaries" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resourses" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogsComments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Commentaries" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resourses" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogsComments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Commentaries" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogsComments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Commentaries" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -332,7 +180,7 @@
     <property name="ToolWindowStructure.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550059283315" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550060822267" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -474,12 +322,12 @@
       <workItem from="1550044523722" duration="5305000" />
       <workItem from="1550051597679" duration="1639000" />
       <workItem from="1550053273008" duration="300000" />
-      <workItem from="1550053607998" duration="5669000" />
+      <workItem from="1550053607998" duration="6394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54203000" />
+    <option name="totallyTimeSpent" value="54928000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -494,7 +342,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49709865" visible="true" weight="0.19987147" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49709865" visible="true" weight="0.19987147" />
       <window_info id="Structure" order="1" sideWeight="0.5029014" side_tool="true" weight="0.19987147" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -504,7 +352,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30510753" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30510753" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39919356" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -583,13 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/system/Service/CommentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -620,14 +461,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resourses/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
-          <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="104" column="53" lean-forward="true" selection-start-line="104" selection-start-column="53" selection-end-line="104" selection-end-column="53" />
         </state>
       </provider>
     </entry>
