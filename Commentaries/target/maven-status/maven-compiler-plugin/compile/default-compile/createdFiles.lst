@@ -1,0 +1,5 @@
+system\Model\Comment.class
+system\Service\CommentService.class
+system\DAO\MongoFactory.class
+system\Controller\CommentController.class
+system\DAO\CommentDAO.class
