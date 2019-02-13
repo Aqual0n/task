@@ -5,9 +5,11 @@
   Time: 22:26
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" language="java" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt" %>
+<fmt:requestEncoding value="UTF-8" />
 <html>
 <head>
     <title>Title</title>
@@ -36,7 +38,11 @@
             <p class="article-paragraph">Как заявил Федериги, Apple «привносит интеллект Siri в клавиатуру» — новая функция QuickType станет настоящей находкой для тех, кто любит початиться. Прямо здесь контактная информация, текущая локация, календарь, последние адреса.</p>
         </div>
 
-        <form action="/blog/article/add-comment" method="post" class="commentary-form">
+        <%
+            request.setCharacterEncoding("UTF-8");
+        %>
+
+        <form action="/blog/article/add-comment" method="get" class="commentary-form">
             <img class="author-avatar current-commentator" src="${authorAva}" alt="Аватарка автора">
             <input type="text" class="commentary-textarea author-field" name="authorName" placeholder="Ваше имя">
             <textarea class="commentary-textarea" name="commentaryText" placeholder="Ваш комментарий" cols="30" rows="10"></textarea>

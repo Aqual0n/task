@@ -33,7 +33,7 @@ public class CommentController {
 
         return commentModelAndView;
     }
-    @RequestMapping(value = "/add-comment", method = RequestMethod.POST)
+    @RequestMapping(value = "/add-comment", method = RequestMethod.GET)
     public @ResponseBody String addComment(@ModelAttribute("commentFromServer") Comment commentary){
         commentService.add(commentary);
         return "redirect:/article/show-article";
