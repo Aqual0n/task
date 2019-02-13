@@ -175,3 +175,11 @@
 0:0:0:0:0:0:0:1 - - [13/Feb/2019:16:02:00 +0400] "GET /blog/article/add-comment?authorName=%D0%90%D1%80%D1%82%D1%91%D0%BC+%D0%9D%D0%B5%D0%B6%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2&commentaryText=%D0%9E%D1%87%D0%B5%D0%BD%D1%8C+%D0%BB%D1%8E%D0%B1%D0%BE%D0%BF%D1%8B%D1%82%D0%BD%D0%BE HTTP/1.1" 200 30
 0:0:0:0:0:0:0:1 - - [13/Feb/2019:16:02:08 +0400] "GET /blog/article/show-article HTTP/1.1" 200 5850
 0:0:0:0:0:0:0:1 - - [13/Feb/2019:16:02:08 +0400] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:21:54:07 +0400] "GET / HTTP/1.1" 200 11488
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:21:54:13 +0400] "GET /blog HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:21:54:16 +0400] "GET /blog/ HTTP/1.1" 200 3375
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:21:54:16 +0400] "GET /blog/resources/img/header-logo.png HTTP/1.1" 200 9405
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:21:54:22 +0400] "GET /blog/article/show-article HTTP/1.1" 200 5850
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:21:54:36 +0400] "GET /blog/article/add-comment?authorName=%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B9+%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B9&commentaryText=%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B9+%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B9 HTTP/1.1" 200 30
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:21:54:39 +0400] "GET /blog/article/show-article HTTP/1.1" 200 6402
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:21:54:39 +0400] "GET /favicon.ico HTTP/1.1" 200 21630

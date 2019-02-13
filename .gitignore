@@ -1,0 +1,15 @@
+.DS_Store
+.idea
+*.ai
+*.log
+*.pdf
+*.psd
+*.sublime*
+node_modules/
+Thumbs.db
+lejka_backend.iml
+.idea/
+target/
+application-prod.properties
+application-dev.properties
+application.properties
