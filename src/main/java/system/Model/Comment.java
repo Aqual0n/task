@@ -19,19 +19,19 @@ public class Comment {
     public Comment() {
     }
 
-    public Comment(String id, String AuthorName, String commentaryText, String commentaryDate) {
-        _id = id;
-        authorName = AuthorName;
-        commentText = commentaryText;
-        commentDate = commentaryDate;
+    public Comment(String _id, String authorName, String commentText, String commentDate) {
+        this._id = _id;
+        this.authorName = authorName;
+        this.commentText = commentText;
+        this.commentDate = commentDate;
     }
 
-    public String getId() {
+    public String get_id() {
         return _id;
     }
 
-    public void setId(String id) {
-        this._id = id;
+    public void set_id(String _id) {
+        this._id = _id;
     }
 
     public String getAuthorName() {

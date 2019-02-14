@@ -4,9 +4,14 @@ import com.mongodb.MongoClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.mapping.context.MappingContext;
 import org.springframework.data.mongodb.MongoDbFactory;
+import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.SimpleMongoDbFactory;
+import org.springframework.data.mongodb.core.convert.MappingMongoConverter;
+import org.springframework.data.mongodb.core.mapping.MongoMappingContext;
+import org.springframework.data.mongodb.gridfs.GridFsTemplate;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
@@ -34,5 +39,20 @@ public class WebConfig extends WebMvcConfigurerAdapter {
     @Bean
     public MongoTemplate mongoTemplate() {
         return new MongoTemplate(mongoFactory());
+    }
+
+    @Bean
+    public MappingContext mappingContext() {
+        return new MongoMappingContext();
+    }
+
+    @Bean
+    public MappingMongoConverter mappingMongoConverter() {
+        return new MappingMongoConverter(mongoFactory(), mappingContext());
+    }
+
+    @Bean
+    public GridFsTemplate gridFsTemplate() throws Exception {
+        return new GridFsTemplate(mongoFactory(), mappingMongoConverter());
     }
 }

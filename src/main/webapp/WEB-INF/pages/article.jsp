@@ -71,8 +71,8 @@
                 <img src="${authorAva}" alt="Аватарка автора" class="author-avatar">
                 <div class="commentary-content-wrapper">
                     <span class="author">${comment.getAuthorName()}</span>
-                    <time class="commentary-date">${comment.getCommentaryDate()}</time>
-                    <p class="commentary-text">${comment.getCommentaryText()}</p>
+                    <time class="commentary-date">${comment.getCommentDate()}</time>
+                    <p class="commentary-text">${comment.getCommentText()}</p>
                 </div>
             </div>
         </c:forEach>

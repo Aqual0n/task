@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import system.DAO.ArticleDAOClass;
 import system.Model.Article;
 
+import java.io.InputStream;
 import java.util.List;
 
 @Service

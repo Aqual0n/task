@@ -5,8 +5,9 @@
   Time: 23:19
   To change this template use File | Settings | File Templates.
 --%>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
     <title>Блог</title>
@@ -74,6 +75,20 @@
 						</p>
 					</div>
 				</li>
+
+			<c:forEach items="${articleList }" var="article">
+				<li class="article-container">
+					<div class="article-content-wrapper">
+						<div class="article-header-wrapper">
+							<h2 class="article-title">${article.getArticleTitle()}</h2>
+							<time class="article-date">11 янв. 2017</time>
+						</div>
+						<p class="article-preview">
+							<a href="/blog/article/show-article">${article.getArticleText()}</a>
+						</p>
+					</div>
+				</li>
+			</c:forEach>
 			</ul>
 		</div>
 	</body>

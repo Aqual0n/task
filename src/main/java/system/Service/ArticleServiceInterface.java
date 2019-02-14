@@ -2,6 +2,7 @@ package system.Service;
 
 import system.Model.Article;
 
+import java.io.InputStream;
 import java.util.List;
 
 public interface ArticleServiceInterface {

@@ -3,6 +3,7 @@ package system.DAO;
 import com.mongodb.BasicDBObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.gridfs.GridFsTemplate;
 import org.springframework.stereotype.Repository;
 import system.Model.Article;
 
@@ -16,7 +17,11 @@ public class ArticleDAOClass implements ArticleDao {
     @Autowired
     MongoTemplate mongoTemplate;
 
+    @Autowired
+    GridFsTemplate gridFsTemplate;
+
     private static final String ArticleCollectionName = "articles";
+    private static final String ImageCollectionName = "images";
 
     @Override
     public List<Article> getArticles() {
@@ -37,6 +42,8 @@ public class ArticleDAOClass implements ArticleDao {
             doc.put("image_id", UUID.randomUUID().toString());
 
             mongoTemplate.insert(doc, ArticleCollectionName);
+
+            //gridFsTemplate.
             output = true;
         }
         return output;
