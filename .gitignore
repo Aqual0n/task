@@ -14,3 +14,4 @@ target/
 application-prod.properties
 application-dev.properties
 application.properties
+.iml
