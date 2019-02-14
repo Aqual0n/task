@@ -7,6 +7,7 @@ import org.springframework.data.mongodb.gridfs.GridFsTemplate;
 import org.springframework.stereotype.Repository;
 import system.Model.Article;
 
+import java.io.InputStream;
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;
@@ -20,7 +21,7 @@ public class ArticleDAOClass implements ArticleDao {
     @Autowired
     GridFsTemplate gridFsTemplate;
 
-    private static final String ArticleCollectionName = "articles";
+    private static final String ArticleCollectionName = "article";
     private static final String ImageCollectionName = "images";
 
     @Override
@@ -35,11 +36,18 @@ public class ArticleDAOClass implements ArticleDao {
         if (!mongoTemplate.collectionExists(Article.class)){
             mongoTemplate.createCollection(Article.class);
         }else{
+
+            Date dateNow = new Date();
+
+            String dateString = dateNow.toString();
+            article.setArticleDate(dateString);
+
             BasicDBObject doc = new BasicDBObject();
             doc.put("_id", UUID.randomUUID().toString());
             doc.put("articleTitle", article.getArticleTitle());
             doc.put("articleText", article.getArticleText());
             doc.put("image_id", UUID.randomUUID().toString());
+            doc.put("articleDate", article.getArticleDate());
 
             mongoTemplate.insert(doc, ArticleCollectionName);
 

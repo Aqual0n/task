@@ -76,19 +76,19 @@
 					</div>
 				</li>
 
-			<c:forEach items="${articleList }" var="article">
-				<li class="article-container">
-					<div class="article-content-wrapper">
-						<div class="article-header-wrapper">
-							<h2 class="article-title">${article.getArticleTitle()}</h2>
-							<time class="article-date">11 янв. 2017</time>
+				<c:forEach items="${articleList }" var="article">
+					<li class="article-container">
+						<div class="article-content-wrapper">
+							<div class="article-header-wrapper">
+								<h2 class="article-title">${article.getArticleTitle()}</h2>
+								<time class="article-date">${article.getArticleDate()}</time>
+							</div>
+							<p class="article-preview">
+								<a href="/blog/article/show-article">${article.getArticleText()}</a>
+							</p>
 						</div>
-						<p class="article-preview">
-							<a href="/blog/article/show-article">${article.getArticleText()}</a>
-						</p>
-					</div>
-				</li>
-			</c:forEach>
+					</li>
+				</c:forEach>
 			</ul>
 		</div>
 	</body>

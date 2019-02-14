@@ -14,6 +14,52 @@ public class Article {
 
     private String image_id;
 
+    private String articleDate;
+
+    public Article() {
+    }
+
+    public Article(String _id, String articleTitle, String articleText, String image_id, String articleDate) {
+        this._id = _id;
+        this.articleTitle = articleTitle;
+        this.articleText = articleText;
+        this.image_id = image_id;
+        this.articleDate = articleDate;
+    }
+
+    @Override
+    public String toString() {
+        return "Article{" +
+                "articleTitle='" + articleTitle + '\'' +
+                ", articleText='" + articleText + '\'' +
+                ", articleDate='" + articleDate + '\'' +
+                '}';
+    }
+
+    public String get_id() {
+        return _id;
+    }
+
+    public void set_id(String _id) {
+        this._id = _id;
+    }
+
+    public String getArticleTitle() {
+        return articleTitle;
+    }
+
+    public void setArticleTitle(String articleTitle) {
+        this.articleTitle = articleTitle;
+    }
+
+    public String getArticleText() {
+        return articleText;
+    }
+
+    public void setArticleText(String articleText) {
+        this.articleText = articleText;
+    }
+
     public String getImage_id() {
         return image_id;
     }
@@ -22,43 +68,11 @@ public class Article {
         this.image_id = image_id;
     }
 
-    public Article(String ArticleTitle, String ArticleText) {
-        articleTitle = ArticleTitle;
-        articleText = ArticleText;
+    public String getArticleDate() {
+        return articleDate;
     }
 
-    public Article() {
-    }
-
-    public String getId() {
-        return _id;
-    }
-
-    public void setId(String id) {
-        this._id = id;
-    }
-
-    public String getArticleTitle() {
-        return articleTitle;
-    }
-
-    public void setArticleTitle(String ArticleTitle) {
-        articleTitle = ArticleTitle;
-    }
-
-    public String getArticleText() {
-        return articleText;
-    }
-
-    public void setArticleText(String ArticleText) {
-        articleText = ArticleText;
-    }
-
-    @Override
-    public String toString() {
-        return "Article{" +
-                "articleTitle='" + articleTitle + '\'' +
-                ", articleText='" + articleText + '\'' +
-                '}';
+    public void setArticleDate(String articleDate) {
+        this.articleDate = articleDate;
     }
 }

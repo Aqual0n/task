@@ -3,6 +3,7 @@ package system.DAO;
 import org.springframework.stereotype.Repository;
 import system.Model.Article;
 
+import java.io.InputStream;
 import java.util.List;
 
 @Repository

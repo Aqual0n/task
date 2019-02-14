@@ -3,12 +3,16 @@ package system.DAO;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBCollection;
 import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoCursor;
 import com.mongodb.gridfs.GridFSFile;
+import com.sun.tools.javac.util.Convert;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Repository;
 import system.Model.Comment;
 
+import java.awt.print.Pageable;
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;
@@ -19,7 +23,7 @@ public class CommentDAOClass implements CommentDAO{
     @Autowired
     MongoTemplate mongoTemplate;
 
-    private static final String CommentsCollectionName = "comments";
+    private static final String CommentsCollectionName = "comment";
 
     @Override
     public List<Comment> getComments() {
@@ -34,6 +38,7 @@ public class CommentDAOClass implements CommentDAO{
             mongoTemplate.createCollection(Comment.class);
         }else{
             Date dateNow = new Date();
+
             String dateString = dateNow.toString();
             comment.setCommentDate(dateString);
 

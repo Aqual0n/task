@@ -9,6 +9,7 @@ import system.Model.Article;
 import system.Service.ArticleService;
 
 import java.io.*;
+import java.util.UUID;
 
 @Controller
 @RequestMapping("/")
@@ -18,43 +19,26 @@ public class ArticleController {
     private ArticleService articleService;
 
     //Это должно выводить список всез статей на главную
-//    @RequestMapping(value = "/", method = RequestMethod.GET)
-//    public ModelAndView getArticles() {
-//        ModelAndView model = new ModelAndView("/blog/new-article");
-//        model.addObject("articleList", articleService.getArticle());
-//        model.setViewName("index");
-//        return model;
-//    }
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public ModelAndView getArticles() {
+        ModelAndView model = new ModelAndView("/blog/new-article");
+        model.addObject("articleList", articleService.getArticle());
+        model.setViewName("index");
+        return model;
+    }
 
 
     @RequestMapping(value = "/new-article", method = RequestMethod.GET)
     public ModelAndView showArticlePage() {
         ModelAndView model = new ModelAndView("/blog/new-article");
-        //model.addObject("articlesList", articleService.getArticle());
         model.setViewName("new-article");
         return model;
     }
 
     @RequestMapping(value = "/new-article/add", method = RequestMethod.POST)
     public @ResponseBody
-    ModelAndView addArticle(@ModelAttribute("articleFromServer") Article article/*,
-                            @RequestParam("articleImage") MultipartFile image,
-                            @RequestParam("articleTitle") String articleName*/){
+    ModelAndView addArticle(@ModelAttribute("articleFromServer") Article article){
         ModelAndView model = new ModelAndView("/blog/new-article/add");
-        //ModelAndView errorModel = new ModelAndView("/blog/new-article");
-
-
-//       byte[] bytes = image.getBytes();
-//       BufferedOutputStream stream =
-//          new BufferedOutputStream(new FileOutputStream(new File(articleName + "-uploaded")));
-//       stream.write(bytes);
-//       stream.close();
-//
-//            InputStream inputStream = new FileInputStream(articleName + "-uploaded");
-//
-//
-//
-//
         model.setViewName("added-article-message");
         articleService.add(article);
         return model;
