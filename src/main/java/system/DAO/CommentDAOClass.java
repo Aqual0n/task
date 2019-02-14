@@ -37,7 +37,7 @@ public class CommentDAOClass implements CommentDAO{
             comment.setCommentDate(dateString);
 
             BasicDBObject doc = new BasicDBObject();
-            doc.put("id", UUID.randomUUID().toString());
+            doc.put("_id", UUID.randomUUID().toString());
             doc.put("authorName", comment.getAuthorName());
             doc.put("commentText", comment.getCommentText());
             doc.put("commentDate", comment.getCommentDate());

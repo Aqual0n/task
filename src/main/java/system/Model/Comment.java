@@ -9,7 +9,7 @@ import javax.persistence.Entity;
 @Entity(name = "Comment")
 public class Comment {
     @Id
-    private String id;
+    private String _id;
 
     private String authorName;
     private String commentText;
@@ -19,19 +19,19 @@ public class Comment {
     public Comment() {
     }
 
-    public Comment(String _id, String AuthorName, String commentaryText, String commentaryDate) {
-        id = _id;
+    public Comment(String id, String AuthorName, String commentaryText, String commentaryDate) {
+        _id = id;
         authorName = AuthorName;
         commentText = commentaryText;
         commentDate = commentaryDate;
     }
 
     public String getId() {
-        return id;
+        return _id;
     }
 
-    public void setId(String _id) {
-        this.id = _id;
+    public void setId(String id) {
+        this._id = id;
     }
 
     public String getAuthorName() {

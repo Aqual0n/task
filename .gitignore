@@ -4,11 +4,12 @@
 *.log
 *.pdf
 *.psd
+*.iml
 *.sublime*
 node_modules/
 Thumbs.db
 lejka_backend.iml
-.idea/
+.idea/s
 target/
 application-prod.properties
 application-dev.properties

@@ -15,7 +15,7 @@
 	<spring:url value="/resources/css/fonts.css" var="fontsCss" />
 	<spring:url value="/resources/css/styles.css" var="stylesCss" />
 
-    <link rel="stylesheet" href="${resetCss}">
+	<link rel="stylesheet" href="${resetCss}">
 	<link rel="stylesheet" href="${fontsCss}">
 	<link rel="stylesheet" href="${stylesCss}">
 </head>
@@ -23,7 +23,7 @@
     	<div class="container">
 			<header class="main-header">
 				<img src="${logoImg}" alt="Логотип UnitBean" class="header-logo">
-				<button class="add-article-btn">Добавить статью</button>
+				<a href="/blog/new-article" class="add-article-btn">Добавить статью</a>
 				<h1 class="main-heading">Статьи, 24</h1>
 			</header>
 
