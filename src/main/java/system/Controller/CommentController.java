@@ -21,7 +21,7 @@ public class CommentController {
     @RequestMapping(value = "/show-article", method = RequestMethod.GET)
     public ModelAndView getAllComments() {
         ModelAndView model = new ModelAndView("article/show-article");
-        model.addObject("commentList", commentService.getAll());
+        model.addObject("commentList", commentService.getComments());
         model.setViewName("article");
         return model;
     }

@@ -1,57 +1,60 @@
 package system.Model;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.util.Date;
+import javax.persistence.Entity;
 
+@Document
+@Entity(name = "Comment")
 public class Comment {
     @Id
     private String id;
 
-    private String AuthorName;
-    private String CommentaryText;
+    private String authorName;
+    private String commentText;
 
-    private String CommentaryDate;
+    private String commentDate;
 
     public Comment() {
     }
 
-    public Comment(String authorName, String commentaryText, String commentaryDate) {
-        AuthorName = authorName;
-        CommentaryText = commentaryText;
-        CommentaryDate = commentaryDate;
-    }
-
-    public String getCommentaryDate() {
-        return CommentaryDate;
-    }
-
-    public void setCommentaryDate(String commentaryDate) {
-        CommentaryDate = commentaryDate;
+    public Comment(String _id, String AuthorName, String commentaryText, String commentaryDate) {
+        id = _id;
+        authorName = AuthorName;
+        commentText = commentaryText;
+        commentDate = commentaryDate;
     }
 
     public String getId() {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setId(String _id) {
+        this.id = _id;
     }
 
     public String getAuthorName() {
-        return AuthorName;
+        return authorName;
     }
 
     public void setAuthorName(String authorName) {
-        AuthorName = authorName;
+        this.authorName = authorName;
     }
 
-    public String getCommentaryText() {
-        return CommentaryText;
+    public String getCommentText() {
+        return commentText;
     }
 
-    public void setCommentaryText(String commentaryText) {
-        CommentaryText = commentaryText;
+    public void setCommentText(String commentText) {
+        this.commentText = commentText;
     }
 
+    public String getCommentDate() {
+        return commentDate;
+    }
+
+    public void setCommentDate(String commentDate) {
+        this.commentDate = commentDate;
+    }
 }
