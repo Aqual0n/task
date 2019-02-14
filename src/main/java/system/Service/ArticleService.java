@@ -1,5 +1,6 @@
 package system.Service;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import system.DAO.ArticleDAOClass;
 import system.Model.Article;
@@ -9,6 +10,7 @@ import java.util.List;
 @Service
 public class ArticleService implements ArticleServiceInterface{
 
+    @Autowired
     ArticleDAOClass articleDAO;
 
     @Override

@@ -11,6 +11,7 @@
 <head>
     <title>Блог</title>
 	<spring:url value="/resources/img/header-logo.png" var="logoImg" />
+	<spring:url value="/resources/img/article-image.png" var="articleImage" />
 	<spring:url value="/resources/css/reset.css" var="resetCss" />
 	<spring:url value="/resources/css/fonts.css" var="fontsCss" />
 	<spring:url value="/resources/css/styles.css" var="stylesCss" />

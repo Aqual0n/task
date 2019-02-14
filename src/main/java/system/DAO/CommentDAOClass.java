@@ -3,6 +3,7 @@ package system.DAO;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBCollection;
 import com.mongodb.client.MongoCollection;
+import com.mongodb.gridfs.GridFSFile;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Repository;
@@ -26,7 +27,7 @@ public class CommentDAOClass implements CommentDAO{
     }
 
     @Override
-    public Boolean add(Comment comment) {
+    public Boolean add(Comment comment /*, GridFSFile image*/) {
         boolean output = false;
         //Если коллекция документов нужного нам класса не существует, создаём её
         if (!mongoTemplate.collectionExists(Comment.class)){

@@ -61,13 +61,19 @@ body {
 	height: 350px;
 	position: relative;
 
-	background-color: cyan;
+	background-color: lightblue;
 	margin-bottom: 44px;
     border-radius: 10px;
 
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     overflow: hidden;
-    
+
+	background-image: url(../img/article-image.png);
+
+	-webkit-background-size: 100%;
+	background-size: 100%;
+
+	background-position: top center;
 }
 
 .article-content-wrapper {
@@ -355,5 +361,36 @@ body {
 
 .submit-article-btn {
 	background-color: #ff4a33;
+}
+
+/*Страница после добавления статьи*/
+
+.added-article-wrapper {
+	position: absolute;
+	top: 50vh;
+	left: 50vw;
+	transform: translate(-50%,-50%);
+
+	display: flex;
+
+	flex-flow: column;
+	align-items: center;
+
+	text-decoration: none;
+
+	height: 500px;
+
+}
+
+.article-added-success {
+	display: block;
+	transform: scale(0.5);
+}
+
+.added-article-wrapper .cancel-btn.new-article-btn {
+	width: max-content;
+
+	margin: 0;
+
 }
 

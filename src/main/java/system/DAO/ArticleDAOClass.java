@@ -34,7 +34,7 @@ public class ArticleDAOClass implements ArticleDao {
             doc.put("_id", UUID.randomUUID().toString());
             doc.put("articleTitle", article.getArticleTitle());
             doc.put("articleText", article.getArticleText());
-            //doc.put("image_id", article.getImage_id());
+            doc.put("image_id", UUID.randomUUID().toString());
 
             mongoTemplate.insert(doc, ArticleCollectionName);
             output = true;

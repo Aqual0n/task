@@ -10,6 +10,8 @@ import org.springframework.web.servlet.ModelAndView;
 import system.Model.Article;
 import system.Service.ArticleService;
 
+import java.io.File;
+
 @Controller
 @RequestMapping("/")
 public class ArticleController {
@@ -25,10 +27,13 @@ public class ArticleController {
         return model;
     }
 
-    @RequestMapping(value = "/blog/new-article/add", method = RequestMethod.GET)
+    @RequestMapping(value = "/new-article/add", method = RequestMethod.POST)
     public @ResponseBody
-    String addArticle(@ModelAttribute("articleFromServer") Article article){
+    ModelAndView addArticle(@ModelAttribute("articleFromServer") Article article){
+        ModelAndView model = new ModelAndView("/blog/new-article/add");
+
+        model.setViewName("added-article-message");
         articleService.add(article);
-        return "redirect:/article/show-article";
+        return model;
     }
 }

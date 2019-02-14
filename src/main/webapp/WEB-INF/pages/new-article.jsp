@@ -23,12 +23,12 @@
         <div class="container">
             <h1 class="add-article-title">Добавление статьи</h1>
 
-            <form action="blog/add-article/" class="add-article-form" method="post">
+            <form action="/blog/new-article/add" class="add-article-form" method="post">
                 <label for="new-article-title">Заголовок</label>
-                <input type="text" id="new-article-title" name="newArticleTitle" class="text-input new-article-title">
+                <input type="text" id="new-article-title" name="articleTitle" class="text-input new-article-title">
 
                 <label for="new-article-text">Текст статьи</label>
-                <textarea name="newArticleText" id="new-article-text" cols="30" rows="10" class="text-input new-article-text"></textarea>
+                <textarea name="articleText" id="new-article-text" cols="30" rows="10" class="text-input new-article-text"></textarea>
                 <div class="form-footer">
                     <label>
                         <input type="file" class="visually-hidden" name="articleImage" id="upload-file">
@@ -38,7 +38,6 @@
                     <a href="/blog" class="cancel-btn new-article-btn">Отмена</a>
                     <button class="submit-article-btn new-article-btn" type="submit">Добавить</button>
                 </div>
-
             </form>
         </div>
     </body>
