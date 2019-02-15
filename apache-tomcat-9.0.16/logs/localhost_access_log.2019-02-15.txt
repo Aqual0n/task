@@ -146,3 +146,6 @@
 0:0:0:0:0:0:0:1 - - [15/Feb/2019:17:03:56 +0400] "GET /blog/article/show-article/05c41d48-c4ea-4f8d-8407-9ad796a241ab HTTP/1.1" 200 4066
 0:0:0:0:0:0:0:1 - - [15/Feb/2019:17:04:02 +0400] "GET /blog/article/show-article/d2c7c699-5849-421d-969f-382f0640f72a HTTP/1.1" 200 4117
 0:0:0:0:0:0:0:1 - - [15/Feb/2019:17:04:36 +0400] "GET /blog/article/show-article/05c41d48-c4ea-4f8d-8407-9ad796a241ab HTTP/1.1" 200 4066
+0:0:0:0:0:0:0:1 - - [15/Feb/2019:17:08:00 +0400] "GET /blog/ HTTP/1.1" 200 4357
+0:0:0:0:0:0:0:1 - - [15/Feb/2019:17:08:01 +0400] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [15/Feb/2019:17:08:10 +0400] "GET /blog/article/show-article HTTP/1.1" 200 4047

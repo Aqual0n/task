@@ -23,7 +23,7 @@
         <div class="container">
             <h1 class="add-article-title">Добавление статьи</h1>
 
-            <form action="/blog/new-article/add" enctype="multipart/form-data" class="add-article-form" method="post">
+            <form action="/blog/new-article/add" enctype="multipart/form-data" class="add-article-form" method="get">
                 <label for="new-article-title">Заголовок</label>
                 <input type="text" id="new-article-title" name="articleTitle" class="text-input new-article-title">
 

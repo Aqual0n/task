@@ -47,7 +47,8 @@ public class ArticleController {
         return model;
     }
 
-    @RequestMapping(value = "/new-article/add", method = RequestMethod.POST)
+//    Разобраться с кодировкой
+    @RequestMapping(value = "/new-article/add", method = RequestMethod.GET)
     public @ResponseBody
     ModelAndView addArticle(@ModelAttribute("articleFromServer") Article article){
         ModelAndView model = new ModelAndView("/blog/new-article/add");
