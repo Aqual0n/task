@@ -78,7 +78,9 @@
 				</li>--%>
 
 				<c:forEach items="${articleList }" var="article">
-					<li class="article-container">
+
+					<spring:url value="/resources/img/article-images/${article.getImage_id()}" var="articleBackground" />
+					<li class="article-container" style="background-image: url(${articleBackground});">
 						<div class="article-content-wrapper">
 							<div class="article-header-wrapper">
 								<h2 class="article-title">${article.getArticleTitle()}</h2>

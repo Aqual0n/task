@@ -13,7 +13,8 @@
     <title>Title</title>
 
     <spring:url value="/resources/img/author-avatar.png" var="authorAva" />
-    <spring:url value="/resources/img/article-image.png" var="articleImage" />
+    <%--<spring:url value="/resources/img/article-image.png" var="articleImage" />--%>
+    <spring:url value="/resources/img/article-images/${articleToJsp.getImage_id()}" var="articleImage" />
     <spring:url value="/resources/css/reset.css" var="resetCss" />
     <spring:url value="/resources/css/fonts.css" var="fontsCss" />
     <spring:url value="/resources/css/styles.css" var="stylesCss" />

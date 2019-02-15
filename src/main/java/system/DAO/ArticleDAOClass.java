@@ -37,24 +37,11 @@ public class ArticleDAOClass implements ArticleDao {
 
         List<Article> articles = mongoTemplate.findAll(Article.class, ArticleCollectionName);
 
-
-
-//        for (int i = 0; i < articles.size(); i++) {
-//            Query query = new Query();
-//            query.addCriteria(Criteria.where("filename").is(articles.get(i).getImage_id()));
-//
-//            GridFSFile image = gridFsTemplate.findOne(query);
-//
-//
-//            GridFsResource fileImage = new GridFsResource(image);
-//        }
-
-
         return articles;
     }
 
     @Override
-    public Boolean add(Article article, InputStream image) {
+    public Boolean add(Article article) {
         boolean output = false;
         //Если коллекция документов нужного нам класса не существует, создаём её
         if (!mongoTemplate.collectionExists(Article.class)){
@@ -66,16 +53,12 @@ public class ArticleDAOClass implements ArticleDao {
             String dateString = dateNow.toString();
             article.setArticleDate(dateString);
 
-            String image_id = UUID.randomUUID().toString();
-
             BasicDBObject doc = new BasicDBObject();
             doc.put("_id", UUID.randomUUID().toString());
             doc.put("articleTitle", article.getArticleTitle());
             doc.put("articleText", article.getArticleText());
-            doc.put("image_id", image_id);
             doc.put("articleDate", article.getArticleDate());
-
-            gridFsTemplate.store(image, image_id);
+            doc.put("image_id", article.getImage_id());
 
             mongoTemplate.insert(doc, ArticleCollectionName);
 

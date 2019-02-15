@@ -1,7 +1,16 @@
 package system.Controller;
 
+import com.mongodb.client.gridfs.model.GridFSFile;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.InputStreamResource;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.data.mongodb.gridfs.GridFsResource;
+import org.springframework.data.mongodb.gridfs.GridFsTemplate;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
@@ -21,6 +30,9 @@ public class ArticleController {
     @Autowired
     private CommentService commentService;
 
+    @Autowired
+    private GridFsTemplate gridFsTemplate;
+
     //Это должно выводить список всез статей на главную
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public ModelAndView getArticles() {
@@ -28,6 +40,18 @@ public class ArticleController {
         model.addObject("articleList", articleService.getArticle());
         model.setViewName("index");
         return model;
+    }
+
+    @GetMapping("/resources/img/article-images/{imageName}")
+    public ResponseEntity<InputStreamResource> getImage(@PathVariable(name = "imageName") String imageName, Model model) throws IOException {
+        GridFSFile gridFSFile = gridFsTemplate.findOne(new Query(Criteria.where("filename").is(imageName)));
+        GridFsResource gridFsResource = gridFsTemplate.getResource(gridFSFile.getFilename());
+
+
+        return ResponseEntity
+                .ok()
+                .contentType(MediaType.valueOf(gridFsResource.getContentType()))
+                .body(new InputStreamResource(gridFsResource.getInputStream()));
     }
 
     @RequestMapping(value = "/article/show-article/{_id}", method = RequestMethod.GET)
@@ -59,6 +83,12 @@ public class ArticleController {
 
         try {
             articleImage = file.getInputStream();
+
+            String imageId = UUID.randomUUID().toString();
+            gridFsTemplate.store(articleImage, imageId, file.getContentType());
+
+            article.setImage_id(imageId);
+
         }catch (Exception r)
         {
             model.setViewName("new-article");
@@ -66,7 +96,7 @@ public class ArticleController {
         }
 
 
-        articleService.add(article, articleImage);
+        articleService.add(article);
         return model;
     }
 }
