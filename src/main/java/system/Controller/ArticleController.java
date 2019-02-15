@@ -7,6 +7,7 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 import system.Model.Article;
 import system.Service.ArticleService;
+import system.Service.CommentService;
 
 import java.io.*;
 import java.util.UUID;
@@ -17,6 +18,8 @@ public class ArticleController {
 
     @Autowired
     private ArticleService articleService;
+    @Autowired
+    private CommentService commentService;
 
     //Это должно выводить список всез статей на главную
     @RequestMapping(value = "/", method = RequestMethod.GET)
@@ -24,6 +27,15 @@ public class ArticleController {
         ModelAndView model = new ModelAndView("/blog/new-article");
         model.addObject("articleList", articleService.getArticle());
         model.setViewName("index");
+        return model;
+    }
+
+    @RequestMapping(value = "/article/show-article/{_id}", method = RequestMethod.GET)
+    public ModelAndView getArticle(@PathVariable("_id") String articleId) {
+        ModelAndView model = new ModelAndView("article/show-article/"+articleId);
+        model.addObject("commentList", commentService.getComments());
+        model.addObject("articleToJsp", articleService.findById(articleId));
+        model.setViewName("article");
         return model;
     }
 

@@ -26,6 +26,8 @@ public class CommentController {
         return model;
     }
 
+
+
     @RequestMapping(value = "/show-articlet", method = RequestMethod.GET)
     public ModelAndView receiveComment(){
         ModelAndView commentModelAndView = new ModelAndView();

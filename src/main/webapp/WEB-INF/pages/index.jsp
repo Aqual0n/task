@@ -83,8 +83,9 @@
 								<h2 class="article-title">${article.getArticleTitle()}</h2>
 								<time class="article-date">${article.getArticleDate()}</time>
 							</div>
+							<spring:url value = "/article/show-article/${article.get_id()}" var = "articleURL"/>
 							<p class="article-preview">
-								<a href="/blog/article/show-article">${article.getArticleText()}</a>
+								<a href="${articleURL}">${article.getArticleText()}</a>
 							</p>
 						</div>
 					</li>
