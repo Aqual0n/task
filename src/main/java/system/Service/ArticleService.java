@@ -20,8 +20,8 @@ public class ArticleService implements ArticleServiceInterface{
     }
 
     @Override
-    public void add(Article article, InputStream image) {
-        articleDAO.add(article, image);
+    public void add(Article article) {
+        articleDAO.add(article);
     }
 
     @Override
