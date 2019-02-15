@@ -15,6 +15,7 @@ import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;
@@ -49,8 +50,9 @@ public class ArticleDAOClass implements ArticleDao {
         }else{
 
             Date dateNow = new Date();
-
-            String dateString = dateNow.toString();
+            SimpleDateFormat dateFormat = new SimpleDateFormat("dd MMMM yyyy");
+            String dateString = dateFormat.format(dateNow);
+            
             article.setArticleDate(dateString);
 
             BasicDBObject doc = new BasicDBObject();

@@ -15,6 +15,7 @@ import org.springframework.stereotype.Repository;
 import system.Model.Comment;
 
 import java.awt.print.Pageable;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;
@@ -45,8 +46,10 @@ public class CommentDAOClass implements CommentDAO{
             mongoTemplate.createCollection(Comment.class);
         }else{
             Date dateNow = new Date();
+            SimpleDateFormat dateFormat = new SimpleDateFormat("dd MMMM yyyy");
 
-            String dateString = dateNow.toString();
+            String dateString = dateFormat.format(dateNow);
+
             comment.setCommentDate(dateString);
 
             BasicDBObject doc = new BasicDBObject();
