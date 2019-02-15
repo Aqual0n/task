@@ -52,7 +52,7 @@ public class ArticleDAOClass implements ArticleDao {
             Date dateNow = new Date();
             SimpleDateFormat dateFormat = new SimpleDateFormat("dd MMMM yyyy");
             String dateString = dateFormat.format(dateNow);
-            
+
             article.setArticleDate(dateString);
 
             BasicDBObject doc = new BasicDBObject();
