@@ -48,12 +48,25 @@ public class ArticleController {
     }
 
 //    Разобраться с кодировкой
-    @RequestMapping(value = "/new-article/add", method = RequestMethod.GET)
+    @RequestMapping(value = "/new-article/add", method = RequestMethod.POST)
     public @ResponseBody
-    ModelAndView addArticle(@ModelAttribute("articleFromServer") Article article){
+    ModelAndView addArticle(@ModelAttribute("articleFromServer") Article article,
+                            @RequestParam("articleImage") MultipartFile file){
         ModelAndView model = new ModelAndView("/blog/new-article/add");
         model.setViewName("added-article-message");
-        articleService.add(article);
+
+        InputStream articleImage = null;
+
+        try {
+            articleImage = file.getInputStream();
+        }catch (Exception r)
+        {
+            model.setViewName("new-article");
+            return model;
+        }
+
+
+        articleService.add(article, articleImage);
         return model;
     }
 }

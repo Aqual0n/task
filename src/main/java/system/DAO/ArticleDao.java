@@ -10,7 +10,7 @@ import java.util.List;
 public interface ArticleDao {
     public List<Article> getArticles();
 
-    public Boolean add(Article article);
+    public Boolean add(Article article, InputStream image);
 
     public void update(Article article);
 

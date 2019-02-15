@@ -8,7 +8,7 @@ import java.util.List;
 public interface ArticleServiceInterface {
     public List<Article> getArticle();
 
-    public void add(Article article);
+    public void add(Article article, InputStream image);
 
     public void update(Article article);
 
