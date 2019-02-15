@@ -2,10 +2,7 @@ package system.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import system.Model.Comment;
 import system.Service.CommentService;
@@ -18,25 +15,10 @@ public class CommentController {
     @Autowired
     private CommentService commentService;
 
-    @RequestMapping(value = "/show-article", method = RequestMethod.GET)
-    public ModelAndView getAllComments() {
-        ModelAndView model = new ModelAndView("article/show-article");
-        model.addObject("commentList", commentService.getComments());
-        model.setViewName("article");
-        return model;
-    }
-
-
-
-    @RequestMapping(value = "/show-articlet", method = RequestMethod.GET)
-    public ModelAndView receiveComment(){
-        ModelAndView commentModelAndView = new ModelAndView();
-        commentModelAndView.addObject("commentFromServer", new Comment());
-
-        return commentModelAndView;
-    }
-    @RequestMapping(value = "/add-comment", method = RequestMethod.GET)
-    public @ResponseBody String addComment(@ModelAttribute("commentFromServer") Comment commentary){
+    @RequestMapping(value = "/{_id}/add-comment", method = RequestMethod.GET)
+    public @ResponseBody String addComment(@ModelAttribute("commentFromServer") Comment commentary,
+                                           @PathVariable("_id") String articleId){
+        commentary.setArticle_id(articleId);
         commentService.add(commentary);
         return "redirect:/article/show-article";
     }

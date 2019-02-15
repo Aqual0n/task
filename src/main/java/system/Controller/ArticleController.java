@@ -33,7 +33,7 @@ public class ArticleController {
     @RequestMapping(value = "/article/show-article/{_id}", method = RequestMethod.GET)
     public ModelAndView getArticle(@PathVariable("_id") String articleId) {
         ModelAndView model = new ModelAndView("article/show-article/"+articleId);
-        model.addObject("commentList", commentService.getComments());
+        model.addObject("commentList", commentService.getComments(articleId));
         model.addObject("articleToJsp", articleService.findById(articleId));
         model.setViewName("article");
         return model;

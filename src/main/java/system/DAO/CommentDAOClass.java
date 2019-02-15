@@ -9,6 +9,8 @@ import com.sun.tools.javac.util.Convert;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Repository;
 import system.Model.Comment;
 
@@ -26,8 +28,13 @@ public class CommentDAOClass implements CommentDAO{
     private static final String CommentsCollectionName = "comment";
 
     @Override
-    public List<Comment> getComments() {
-        return mongoTemplate.findAll(Comment.class, CommentsCollectionName);
+    public List<Comment> getComments(String article_id) {
+
+        Query query = new Query();
+
+        query.addCriteria(Criteria.where("article_id").is(article_id));
+
+        return mongoTemplate.find(query, Comment.class, CommentsCollectionName);
     }
 
     @Override
@@ -47,6 +54,7 @@ public class CommentDAOClass implements CommentDAO{
             doc.put("authorName", comment.getAuthorName());
             doc.put("commentText", comment.getCommentText());
             doc.put("commentDate", comment.getCommentDate());
+            doc.put("article_id", comment.getArticle_id());
 
             mongoTemplate.insert(doc, CommentsCollectionName);
             output = true;

@@ -13,17 +13,28 @@ public class Comment {
 
     private String authorName;
     private String commentText;
-
     private String commentDate;
+    private String article_id;
+
+
 
     public Comment() {
     }
 
-    public Comment(String _id, String authorName, String commentText, String commentDate) {
+    public Comment(String _id, String authorName, String commentText, String commentDate, String article_id) {
         this._id = _id;
         this.authorName = authorName;
         this.commentText = commentText;
         this.commentDate = commentDate;
+        this.article_id = article_id;
+    }
+
+    public String getArticle_id() {
+        return article_id;
+    }
+
+    public void setArticle_id(String article_id) {
+        this.article_id = article_id;
     }
 
     public String get_id() {

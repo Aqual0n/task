@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface CommentServiceInterface {
 
-    public List<Comment> getComments();
+    public List<Comment> getComments(String article_id);
 
     public void add(Comment comment);
 

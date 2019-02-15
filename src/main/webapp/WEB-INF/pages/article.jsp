@@ -38,35 +38,30 @@
             <%--<p class="article-paragraph">Как заявил Федериги, Apple «привносит интеллект Siri в клавиатуру» — новая функция QuickType станет настоящей находкой для тех, кто любит початиться. Прямо здесь контактная информация, текущая локация, календарь, последние адреса.</p>--%>
         </div>
 
-        <form action="/blog/article/add-comment" method="get" class="commentary-form">
+        <form action="/blog/article/${articleToJsp.get_id()}/add-comment" method="get" class="commentary-form">
             <img class="author-avatar current-commentator" src="${authorAva}" alt="Аватарка автора">
             <input type="text" class="commentary-textarea author-field" name="authorName" placeholder="Ваше имя">
             <textarea class="commentary-textarea" name="commentText" placeholder="Ваш комментарий" cols="30" rows="10"></textarea>
             <button class="submit-commentary-btn" type="submit"></button>
         </form>
 
-        <%--<spring:form modelAttribute="commentFromServer" method="post" action="/blog/article/add-comment">--%>
-            <%--<spring:input path="authorName"/>--%>
-            <%--<spring:input path="commentaryText"/>--%>
-            <%--<spring:button>Отправить комментарий</spring:button>--%>
-        <%--</spring:form>--%>
-
-        <div class="commentary-wrapper">
-            <img src="${authorAva}" alt="Аватарка автора" class="author-avatar">
-            <div class="commentary-content-wrapper">
-                <span class="author">ZelectricDOG</span>
-                <time class="commentary-date">13 июня 2016</time>
-                <p class="commentary-text">А вообще на андроид похоже</p>
-            </div>
-        </div>
-        <div class="commentary-wrapper">
-            <img src="${authorAva}" alt="Аватарка автора" class="author-avatar">
-            <div class="commentary-content-wrapper">
-                <span class="author">Den4ik7755</span>
-                <time class="commentary-date">13 июня 2016</time>
-                <p class="commentary-text">Какие устройства будут поддерживать обновление?</p>
-            </div>
-        </div>
+        <%--Для дебага вёрстки--%>
+        <%--<div class="commentary-wrapper">--%>
+            <%--<img src="${authorAva}" alt="Аватарка автора" class="author-avatar">--%>
+            <%--<div class="commentary-content-wrapper">--%>
+                <%--<span class="author">ZelectricDOG</span>--%>
+                <%--<time class="commentary-date">13 июня 2016</time>--%>
+                <%--<p class="commentary-text">А вообще на андроид похоже</p>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="commentary-wrapper">--%>
+            <%--<img src="${authorAva}" alt="Аватарка автора" class="author-avatar">--%>
+            <%--<div class="commentary-content-wrapper">--%>
+                <%--<span class="author">Den4ik7755</span>--%>
+                <%--<time class="commentary-date">13 июня 2016</time>--%>
+                <%--<p class="commentary-text">Какие устройства будут поддерживать обновление?</p>--%>
+            <%--</div>--%>
+        <%--</div>--%>
 
         <c:forEach items="${commentList }" var="comment">
             <div class="commentary-wrapper">

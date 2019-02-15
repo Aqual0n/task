@@ -8,7 +8,7 @@ import java.util.List;
 
 @Repository
 public interface CommentDAO {
-    public List<Comment> getComments();
+    public List<Comment> getComments(String article_id);
 
     public Boolean add(Comment comment);
 

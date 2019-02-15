@@ -16,8 +16,8 @@ public class CommentService implements CommentServiceInterface{
     CommentDAOClass commentDAO;
 
     @Override
-    public List<Comment> getComments() {
-        return commentDAO.getComments();
+    public List<Comment> getComments(String article_id) {
+        return commentDAO.getComments(article_id);
     }
 
     @Override

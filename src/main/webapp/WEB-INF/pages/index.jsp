@@ -30,6 +30,8 @@
 			</header>
 
 			<ul class="article-list">
+				<%--Для дебага вёрстки--%>
+				<%--
 				<li class="article-container">
 					<div class="article-content-wrapper">
 						<div class="article-header-wrapper">
@@ -40,7 +42,6 @@
 							<a href="/blog/article/show-article">Мобильные приложения - мощный инструмент маркетинга. И многочисленные примеры компаний, ведущих бизнес  в различных сферах, подтверждают это</a>
 						</p>
 					</div>
-					
 				</li>
 				<li class="article-container">
 					<div class="article-content-wrapper">
@@ -74,7 +75,7 @@
 							<a href="/blog/article/show-article">Вчера Крейг Федериги, вице-президент Apple, представил «самое большое» обновление (по его словам) iOS. Новая версия мобильной операционной системы Apple включает совершенно новый экран блокировки, обновленные уведомления, расширенную поддержку 3D Touch и новые инструменты для взаимодействия с приложениями. Заинтригованы? Давайте подробнее.</a>
 						</p>
 					</div>
-				</li>
+				</li>--%>
 
 				<c:forEach items="${articleList }" var="article">
 					<li class="article-container">
